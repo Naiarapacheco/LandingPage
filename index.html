@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <title>Barber Shop</title>
+  </head>
+
+  <body>
+    <div class="bg-home">
+      <header>
+        <nav class="header-content container">
+          <div class="header-icons" data-aos="fade-down">
+            <a href="#" aria-label="Instagram">
+              <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+            <a href="#" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok fa-2x"></i>
+            </a>
+          </div>
+
+          <div class="header-button-container" data-aos="fade-down">
+            <a class="header-button" href="https://api.whatsapp.com" target="_blank">
+              Agendar Horário
+            </a>
+          </div>
+        </nav>
+
+        <main class="box container" data-aos="fade-down" data-aos-delay="400">
+          <h1>MAKE YOUR STYLE YOUR REFERENCE.</h1>
+          <p>Horário de funcionamento: 09:00 às 21:00</p>
+        </main>
+      </header>
+    </div>
+
+    <section class="about">
+      <div class="container about-content">
+        <div data-aos="zoom-in" data-aos-delay="200">
+          <img
+            src="assets/images.svg"
+            alt="Imagem da barbearia e dos clientes"
+          />
+        </div>
+
+        <div
+          class="about-description"
+          data-aos="zoom-out-left"
+          data-aos-delay="250"
+        >
+          <h2>Sobre</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            dolorum quia magni explicabo aut, eum repellat, dignissimos eligendi
+            autem adipisci quaerat optio voluptas accusantium commodi qui
+            beatae, ipsa harum neque?
+          </p>
+          <p>
+            Horário de funcionamento: <strong>09:00</strong> às
+            <strong>21:00</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="services-content container">
+        <h2>Serviços</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+          corrupti autem assumenda quod sapiente voluptates tempora, rerum quae
+          alias ad qui unde ipsum molestiae non eaque eius illum explicabo
+          possimus!
+        </p>
+      </div>
+
+      <section class="haircuts">
+        <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+          <img
+            class="haircut-container"
+            src="assets/pexels-photo-2076930.jpeg"
+            alt="Corte Normal"
+          />
+          <div class="haircut-price">
+            <strong>Corte Normal</strong>
+            <button>R$ 40,00</button>
+          </div>
+        </div>
+
+        <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+          <img
+            class="haircut-container"
+            src="assets/pexels-photo-2809652.jpeg"
+            alt="Cortes Customizados"
+          />
+          <div class="haircut-price">
+            <strong>Cortes Customizados</strong>
+            <button>R$ 48,00</button>
+          </div>
+        </div>
+
+        <div class="haircut" data-aos="fade-up" data-aos-delay="400">
+          <img
+            class="haircut-container"
+            src="assets/pexels-photo-2521978.jpeg"
+            alt="Barba Completa"
+          />
+          <div class="haircut-price">
+            <strong>Barba Completa</strong>
+            <button>R$ 30,00</button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <div class="services">
+      <h2>Venha conhecer</h2>
+      <iframe
+        width="100%"
+        height="450"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.8282083902354!2d-46.66855932466844!3d-23.610493278766057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a09161d82d3%3A0xeea06a7cc702728a!2sShopping%20Ibirapuera!5e0!3m2!1sen!2sbr!4v1716237418638!5m2!1sen!2sbr"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-icons">
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram fa-2x"></i>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook fa-2x"></i>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <i class="fa-brands fa-tiktok fa-2x"></i>
+        </a>
+      </div>
+
+      <p>Copyright <span id="year"></span> | Todos os direitos reservados</p>
+    </footer>
+
+    <a
+      href="https://api.whatsapp.com"
+      class="btn-whatsapp"
+      target="_blank"
+      data-aos="zoom-in-up"
+      data-aos-delay="400"
+    >
+      <img src="./assets/whatssapp.svg" alt="Botão Whatsapp" />
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+
+      const ano = new Date();
+      const ano_atual = ano.getFullYear();
+
+      document.querySelector('#year').textContent += ano_atual;
+    </script>
+
+  </body>
+</html>
